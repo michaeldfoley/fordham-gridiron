@@ -1,0 +1,81 @@
+// 
+//  Header
+//  ---------------------------------
+
+
+// Preheader
+//---------------------
+
+.preheader {
+  max-height:0;
+  overflow:hidden;
+  display:none;
+  mso-hide: all;
+  font-size:11px; 
+  color: #666666;
+}
+
+
+// Logo
+//---------------------
+
+.header-logo .inner {
+	padding-top: 20px;
+	padding-bottom: 25px;
+  	
+	@media screen and(max-width: $screen-sm) {
+    padding-bottom: 0 !important;
+	}
+	
+	img {
+		max-width: 165px;
+	
+  	@media screen and(max-width: $screen-sm) {
+  		max-width: 165px !important;
+  	}
+	}
+}
+
+
+// Tagline
+//---------------------
+
+.header-tagline .inner {
+	padding-top: 29px;
+	padding-bottom: 25px;
+  	
+	@media screen and(max-width: $screen-sm) {
+    padding-top: 10px !important;
+	}
+}
+.header-tagline .contents {
+  display: inline-block;
+  font-size: 16px;
+  text-align: right;
+  
+  a, & {
+    color: $meta-color;
+  }
+}
+
+@media screen and(max-width: $screen-sm) {
+  .header-logo,
+  .header-tagline {
+    .contents {
+      text-align: center !important;
+    }
+  }
+}
+
+
+// Description
+//---------------------
+
+.header-description {
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
