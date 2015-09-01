@@ -58,7 +58,7 @@ p {
 /* line 9, ../scss/_scaffolding.scss */
 a {
   text-decoration: none;
-  color: #900028;
+  color: #700429;
 }
 
 /* line 14, ../scss/_scaffolding.scss */
@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 14, ../scss/_type.scss */
 h1 a, a h1, h2 a, a h2, h3 a, a h3, h4 a, a h4, h5 a, a h5, h6 a, a h6 {
   text-decoration: none;
-  color: #900028;
+  color: #700429;
 }
 
 /* line 21, ../scss/_type.scss */
@@ -515,9 +515,9 @@ small {
   padding-bottom: 7px;
   padding-left: 30px;
   padding-right: 30px;
-  background: #900028;
+  background: #700429;
   color: #ffffff;
-  border: 1px solid #5d001a;
+  border: 1px solid #3f0217;
 }
 
 /* line 16, ../scss/_btn.scss */
