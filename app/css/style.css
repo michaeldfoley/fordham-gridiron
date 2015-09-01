@@ -715,3 +715,9 @@ td.schedule-key {
     padding-left: 15px !important;
   }
 }
+/* line 6, ../scss/_social.scss */
+.social img {
+  width: 30px;
+  max-width: none;
+  Margin-right: 4px;
+}
