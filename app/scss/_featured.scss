@@ -3,10 +3,52 @@
 //  ---------------------------------
 
 
+.featured,
+.featured .outer {
+  background: darken($primary-color, 5%);
+}
 .featured {
-  text-align: center;
+  
+  .inner {
+    text-align: center;
+  }
+  
+  .inner,
+  #{headings()},
+  a {
+    color: #ffffff;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    text-decoration: none;
+    background: #fcee7f;
+    color: $text-color;
+    font-weight: 600;
+  }
   
   h2 {
     font-weight: 600;
+    padding-top: 10px;
+    Margin-bottom: 20px;
+  }
+  
+  h4 {
+    Margin-bottom: 15px;
+  }
+  
+  p {
+    Margin-bottom: 1.3em;
+  }
+}
+
+.featured-img {
+  Margin-bottom: 10px;
+  
+  @media screen and(max-width: 430px) {
+		max-width: 100% !important;
   }
 }
