@@ -112,12 +112,10 @@ a img {
 
 /* line 68, ../scss/_scaffolding.scss */
 .preheader {
-  max-height: 0;
-  overflow: hidden;
-  display: none;
-  mso-hide: all;
   font-size: 11px;
-  color: #666666;
+  color: #727272;
+  text-align: center;
+  padding-bottom: 0px;
 }
 
 /* line 9, ../scss/_grid.scss */
@@ -549,7 +547,7 @@ small {
 
 /* line 9, ../scss/_header.scss */
 .header-logo .inner {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 25px;
 }
 @media screen and (max-width: 460px) {
@@ -571,7 +569,7 @@ small {
 
 /* line 30, ../scss/_header.scss */
 .header-tagline .inner {
-  padding-top: 29px;
+  padding-top: 10px;
   padding-bottom: 25px;
 }
 @media screen and (max-width: 460px) {
