@@ -53,3 +53,44 @@
 		max-width: 100% !important;
   }
 }
+
+
+// 
+//  Schedule
+//  ---------------------------------
+
+
+.schedule,
+.schedule .outer {
+  background: $aside-background;
+}
+
+.schedule-games td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  vertical-align: top;
+}
+
+.schedule-date {
+  width: 80px;
+}
+
+.schedule-time {
+  width: 90px;
+}
+
+@media screen and (max-width: $screen-sm) {
+  .schedule-date,
+  .schedule-time {
+    width: auto !important;
+  }
+  
+  .schedule-date {
+    min-width: 60px !important;
+  }
+  
+  .schedule-time {
+    min-width: 65px !important;
+    padding-left: 15px !important;
+  }
+}
