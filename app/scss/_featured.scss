@@ -27,6 +27,7 @@
   .btn {
     text-decoration: none;
     background: #fcee7f;
+    border-color: darken(#fcee7f, 40%);
     color: $text-color;
     Margin-top: 10px;
   }
@@ -77,6 +78,16 @@
 
 .schedule-time {
   width: 90px;
+}
+
+.schedule-home td {
+  font-weight: bold;
+}
+
+td.schedule-key {
+  font-size: floor($font-size-base * .95);
+  text-align: center;
+  padding-top: 15px;
 }
 
 @media screen and (max-width: $screen-sm) {
