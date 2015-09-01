@@ -7,17 +7,10 @@
 //---------------------
 
 .section-header {
+  padding-top: 25px;
   padding-bottom: 0;
   
   a {
     color: $text-color;        
   }
-}
-
-
-// Listing
-//---------------------
-
-.listing .inner {
-  padding-top: 10px;
 }

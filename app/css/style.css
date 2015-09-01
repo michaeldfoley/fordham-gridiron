@@ -42,7 +42,7 @@ td {
 
 /* line 42, ../scss/_reset.scss */
 .inner {
-  padding: 25px 15px;
+  padding: 10px 15px 25px 15px;
 }
 
 /* line 46, ../scss/_reset.scss */
@@ -599,16 +599,12 @@ small {
 }
 /* line 9, ../scss/_section.scss */
 .section-header {
+  padding-top: 25px;
   padding-bottom: 0;
 }
-/* line 12, ../scss/_section.scss */
+/* line 13, ../scss/_section.scss */
 .section-header a {
   color: #444444;
-}
-
-/* line 21, ../scss/_section.scss */
-.listing .inner {
-  padding-top: 10px;
 }
 
 /* line 6, ../scss/_featured.scss */
@@ -620,45 +616,46 @@ small {
 /* line 12, ../scss/_featured.scss */
 .featured .inner {
   text-align: center;
+  padding-top: 25px;
 }
-/* line 16, ../scss/_featured.scss */
+/* line 17, ../scss/_featured.scss */
 .featured .inner,
 .featured h1, .featured h2, .featured h3, .featured h4, .featured h5, .featured h6,
 .featured a {
   color: #ffffff;
 }
-/* line 22, ../scss/_featured.scss */
+/* line 23, ../scss/_featured.scss */
 .featured a {
   text-decoration: underline;
 }
-/* line 26, ../scss/_featured.scss */
+/* line 27, ../scss/_featured.scss */
 .featured .btn {
   text-decoration: none;
   background: #fcee7f;
   color: #444444;
   font-weight: 600;
 }
-/* line 33, ../scss/_featured.scss */
+/* line 34, ../scss/_featured.scss */
 .featured h2 {
   font-weight: 600;
   padding-top: 10px;
   Margin-bottom: 20px;
 }
-/* line 39, ../scss/_featured.scss */
+/* line 40, ../scss/_featured.scss */
 .featured h4 {
   Margin-bottom: 15px;
 }
-/* line 43, ../scss/_featured.scss */
+/* line 44, ../scss/_featured.scss */
 .featured p {
   Margin-bottom: 1.3em;
 }
 
-/* line 48, ../scss/_featured.scss */
+/* line 49, ../scss/_featured.scss */
 .featured-img {
   Margin-bottom: 10px;
 }
 @media screen and (max-width: 430px) {
-  /* line 48, ../scss/_featured.scss */
+  /* line 49, ../scss/_featured.scss */
   .featured-img {
     max-width: 100% !important;
   }
