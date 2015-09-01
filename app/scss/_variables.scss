@@ -6,7 +6,7 @@
 // Base colors
 //---------------------
 
-$base-background: #f9f9f9;
+$base-background: #ffffff;
 $base-border: darken($base-background, 5%);
 $content-background: #ffffff;
 $text-color: #444444;
@@ -14,7 +14,6 @@ $heading-color: #333333;
 $primary-color: #900028;
 $meta-color: lighten($text-color, 18%);
 $link-color: $primary-color;
-
 
 // Aside colors
 //---------------------
@@ -29,6 +28,7 @@ $aside-color: lighten($text-color, 10%);
 $btn-background: $primary-color;
 $btn-color: #ffffff;
 $btn-secondary-background: $aside-background;
+$btn-secondary-border: darken($btn-secondary-background, 30%);
 $btn-secondary-color: lighten($text-color, 7%);
 
 
