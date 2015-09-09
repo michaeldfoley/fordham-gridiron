@@ -715,6 +715,25 @@ td.schedule-key {
     padding-left: 15px !important;
   }
 }
+/* line 5, ../scss/_footer.scss */
+.footer {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-size: 11.25px;
+  text-align: center;
+  color: #444444;
+}
+/* line 12, ../scss/_footer.scss */
+.footer a {
+  color: #444444;
+}
+/* line 15, ../scss/_footer.scss */
+.footer .contact {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* line 6, ../scss/_social.scss */
 .social img {
   width: 30px;
