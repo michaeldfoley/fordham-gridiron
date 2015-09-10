@@ -66,24 +66,41 @@ a {
   color: #444444;
 }
 
-/* line 22, ../scss/_scaffolding.scss */
+/* line 18, ../scss/_scaffolding.scss */
+.textlink a {
+  color: #444444;
+  text-decoration: none;
+}
+
+/* line 23, ../scss/_scaffolding.scss */
+.whitelink {
+  color: #ffffff;
+}
+
+/* line 27, ../scss/_scaffolding.scss */
+.whitelink a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 36, ../scss/_scaffolding.scss */
 img {
   outline: none;
   text-decoration: none;
   -ms-interpolation-mode: bicubic;
   border: 0;
 }
-/* line 28, ../scss/_scaffolding.scss */
+/* line 42, ../scss/_scaffolding.scss */
 a img {
   border: 0;
 }
 
-/* line 33, ../scss/_scaffolding.scss */
+/* line 47, ../scss/_scaffolding.scss */
 .img_fix {
   display: block;
 }
 
-/* line 37, ../scss/_scaffolding.scss */
+/* line 51, ../scss/_scaffolding.scss */
 .full-width-image img {
   width: 100%;
   max-width: 570px;
@@ -92,7 +109,7 @@ a img {
   padding-right: 15px;
 }
 @media screen and (max-width: 600px) {
-  /* line 37, ../scss/_scaffolding.scss */
+  /* line 51, ../scss/_scaffolding.scss */
   .full-width-image img {
     max-width: 600px !important;
     padding-left: 0px !important;
@@ -100,7 +117,7 @@ a img {
   }
 }
 
-/* line 55, ../scss/_scaffolding.scss */
+/* line 69, ../scss/_scaffolding.scss */
 .contents {
   color: #444444;
   font-family: "Open Sans", Arial, sans-serif;
@@ -110,7 +127,7 @@ a img {
   text-align: left;
 }
 
-/* line 68, ../scss/_scaffolding.scss */
+/* line 82, ../scss/_scaffolding.scss */
 .preheader {
   font-size: 11px;
   color: #727272;
