@@ -494,12 +494,10 @@ li {
 /* line 95, ../scss/_type.scss */
 .more {
   display: block;
-  font-size: 14px;
   font-weight: bold;
-  padding-top: 2px;
 }
 
-/* line 106, ../scss/_type.scss */
+/* line 104, ../scss/_type.scss */
 small {
   color: #777777;
   font-size: 85%;
