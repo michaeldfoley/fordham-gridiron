@@ -30,7 +30,7 @@
 						<table width="100%">
 							<tr>
 								<td class="inner contents preheader">
-									::::::::PREHEADER GOES HERE::::::::
+									<div block="1" key="preheader" name="Preheader" description="The preheader appears after the subject in the inbox view. It acts as a secondary subject." display="plain">::::::::PREHEADER GOES HERE::::::::</div>
 								</td>
 							</tr>
 						</table>
@@ -66,7 +66,7 @@
 									<table class="contents">
 										<tr>
 											<td>
-												<a href="%%!message_url%%" target="_blank">Gridiron News | Vol. 11 No. 1</a>
+												<a href="%%!message_url%%" target="_blank">Gridiron News | <span block="2" key="volume" name="Volume Number" display="plain">Vol. 11 No. 1</span></a>
 											</td>
 										</tr>
 									</table>
@@ -101,17 +101,20 @@
 						<table width="100%">
 							<tr>
 								<td class="inner contents">
-									<h2>Fordham vs. Villanova Pregame Reception</h2>
-									
-        					<a href="#" target="_blank">
-      						  <img src="http://placehold.it/400x200" width="400" alt="" class="featured-img" /></a>
+									<h2><span block="3" key="lead_title" name="Lead Title" display="plain">Fordham vs. Villanova Pregame Reception</span></h2>
+									<div block="4" key="lead_image" name="Lead Image" display="rich" class="featured-img">
+          					<a href="#" target="_blank">
+        						  <img src="http://placehold.it/400x200" width="400" alt="" /></a>
+									</div>
       						  
-									<h4>Saturday, September 12 at 4 p.m.<br />
-  									Tent in Parking Lot A
+									<h4><span block="5" key="lead_date" name="Lead Date and Location" display="plainlarge">Saturday, September 12 at 4 p.m.<br />
+  									Tent in Parking Lot A</span>
 									</h4>
-									<p>Enjoy a pregame reception featuring an open bar and food, and hear insider information on the day's game from head coach Joe Moorhead, FCRH '96.</p>
-									<p>Kickoff is at 6 p.m. <a href="#">Purchase game tickets online</a> or call 855-RAM-TIXS.</p>
-									<p><a href="#" class="btn">Register for the Reception</a></p>
+									<div block="6" key="lead_desc" name="Lead Description" display="rich">
+  									<p>Enjoy a pregame reception featuring an open bar and food, and hear insider information on the day's game from head coach Joe Moorhead, FCRH '96.</p>
+  									<p>Kickoff is at 6 p.m. <a href="#">Purchase game tickets online</a> or call 855-RAM-TIXS.</p>
+  									<p><a href="#" class="btn">Register for the Reception</a></p>
+									</div>
 								</td>
 							</tr>
 						</table>
@@ -139,7 +142,9 @@
 							<tr>
 								<td class="inner contents section-header">
   								<h4>
-    								<a href="#">Football News</a>
+    								<span block="7" key="section_header" name="Section Header" display="link">
+    								  <a href="#">Football News</a>
+    								</span>
     						  </h4>
 								</td>
 							</tr>
@@ -150,6 +155,9 @@
 					<td class="two-column">
 						<!--[if (gte mso 9)|(IE)]>
 						<table width="100%">
+						<![endif]-->
+						<div section="1"> 
+						<!--[if (gte mso 9)|(IE)]>
 						<tr>
 						<td width="50%" valign="top">
 						<![endif]-->
@@ -160,9 +168,11 @@
 										<table class="contents">
 											<tr>
 												<td>
-													<a href="#"><strong>Former Ram Dan Light Signs with the Denver Broncos</strong></a><br />
-													He becomes the fourth former Ram currently in the NFL. 
-													<a href="#" class="more">Full story</a>
+  												<div block="8" key="news_item" name="News Item" display="rich">
+  													<a href="#"><strong>Former Ram Dan Light Signs with the Denver Broncos</strong></a><br />
+  													He becomes the fourth former Ram currently in the NFL. 
+  												</div>
+													<div class="more" block="9" key="news_link" name="News Link" display="link"><a href="#">Full story</a></div>
 												</td>
 											</tr>
 										</table>
@@ -180,9 +190,12 @@
 										<table class="contents">
 											<tr>
 												<td>
-  												<a href="#"><strong>Football Camp Report – The Defensive Backs</strong></a><br />
-													Rams look to replace all four starters from 2014.
-													<a href="#" class="more">Full story</a>  
+  												<div block="10" key="news_item2" name="News Item" display="rich">
+    												<a href="#"><strong>Football Camp Report – The Defensive Backs</strong></a><br />
+  													Rams look to replace all four starters from 2014.
+  												</div>
+													<div class="more" block="11" key="news_link2" name="News Link" display="link"><a href="#">Full story</a></div>
+  												</div>
 												</td>
 											</tr>
 										</table>
@@ -193,66 +206,47 @@
 						<!--[if (gte mso 9)|(IE)]>
 						</td>
 						</tr>
-						<tr>
-						<td width="50%" valign="top">
 						<![endif]-->
-						<div class="column">
-							<table width="100%">
-								<tr>
-									<td class="inner">
-										<table class="contents">
-											<tr>
-												<td>
-													<a href="#"><strong>Former Ram Dan Light Signs with the Denver Broncos</strong></a><br />
-													He becomes the fourth former Ram currently in the NFL. 
-													<a href="#" class="more">Full story</a>
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-							</table>
 						</div>
 						<!--[if (gte mso 9)|(IE)]>
-						</td><td width="50%" valign="top">
-						<![endif]-->
-						<div class="column">
-							<table width="100%">
-								<tr>
-									<td class="inner">
-										<table class="contents">
-											<tr>
-												<td>
-  												<a href="#"><strong>Football Camp Report – The Defensive Backs</strong></a><br />
-													Rams look to replace all four starters from 2014.
-													<a href="#" class="more">Full story</a>  
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-							</table>
-						</div>
-						<!--[if (gte mso 9)|(IE)]>
-						</td>
-						</tr>
 						</table>
 						<![endif]-->
 					</td>
 				</tr>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+			</td>
+			</tr>
+			</table>
+			<![endif]-->
+		</div>
+	</center>
+	<div section="2"> 
+	<center class="wrapper">
+		<div class="webkit">
+			<!--[if (gte mso 9)|(IE)]>
+			<table width="600" align="center">
+			<tr>
+			<td>
+			<![endif]-->
+			<table class="outer" align="center">
 				<tr>
 					<td class="one-column">
 						<table width="100%">
   						<tr>
 								<td class="inner contents section-header">
   								<h4>
-    								<a href="#">Gridiron Club News</a>
+    								<span block="12" key="section_header2" name="Section Header" display="link">
+    								  <a href="#">Gridiron Club News</a>
+    								</span>
     						  </h4>
 								</td>
   						</tr>
 							<tr>
 								<td class="inner contents">
-								  <p>This is an optional section where the Gridiron Club president can share some news. It could also be a callout section if there's something special that needs to be plugged like a special fundraising campaign.</p>
+									<div block="13" key="optional" name="Optional Item" display="rich">
+  								  <p>This is an optional section where the Gridiron Club president can share some news. It could also be a callout section if there's something special that needs to be plugged like a special fundraising campaign.</p>
+									</div>
 								</td>
 							</tr>
 						</table>
@@ -266,6 +260,7 @@
 			<![endif]-->
 		</div>
 	</center>
+	</div>
 	<center class="wrapper schedule">
 		<div class="webkit">
 			<!--[if (gte mso 9)|(IE)]>
@@ -291,57 +286,57 @@
         						<tr>
         						  <td class="schedule-date">9/4</td>
         						  <td>Army</td>
-        						  <td class="schedule-time">7 p.m.</td>
+        						  <td class="schedule-time"><span block="14" key="game1" name="Game Time/Result" display="plain">7 p.m.</span></td>
         						</tr>
         						<tr class="schedule-home">
         						  <td class="schedule-date">9/12</td>
         						  <td>Villanova University</td>
-        						  <td class="schedule-time">6 p.m.</td>
+        						  <td class="schedule-time"><span block="15" key="game2" name="Game Time/Result" display="plain">6 p.m.</span></td>
         						</tr>
         						<tr class="schedule-home">
         						  <td class="schedule-date">9/19</td>
         						  <td>Columbia University (Homecoming)</td>
-        						  <td class="schedule-time">1 p.m.</td>
+        						  <td class="schedule-time"><span block="16" key="game3" name="Game Time/Result" display="plain">1 p.m.</span></td>
         						</tr>
         						<tr class="schedule-home">
         						  <td class="schedule-date">9/26</td>
         						  <td>Monmouth University</td>
-        						  <td class="schedule-time">1 p.m.</td>
+        						  <td class="schedule-time"><span block="17" key="game4" name="Game Time/Result" display="plain">1 p.m.</span></td>
         						</tr>
         						<tr>
         						  <td class="schedule-date">10/3</td>
         						  <td>Lafayette College*</td>
-        						  <td class="schedule-time">6 p.m.</td>
+        						  <td class="schedule-time"><span block="18" key="game5" name="Game Time/Result" display="plain">6 p.m.</span></td>
         						</tr>
         						<tr>
         						  <td class="schedule-date">10/10</td>
         						  <td>University of Pennsylvania</td>
-        						  <td class="schedule-time">1 p.m.</td>
+        						  <td class="schedule-time"><span block="19" key="game6" name="Game Time/Result" display="plain">1 p.m.</span></td>
         						</tr>
         						<tr class="schedule-home">
         						  <td class="schedule-date">10/17</td>
         						  <td>Holy Cross*</td>
-        						  <td class="schedule-time">1 p.m.</td>
+        						  <td class="schedule-time"><span block="20" key="game7" name="Game Time/Result" display="plain">1 p.m.</span></td>
         						</tr>
         						<tr class="schedule-home">
         						  <td class="schedule-date">10/24</td>
         						  <td>Lehigh University*</td>
-        						  <td class="schedule-time">1 p.m.</td>
+        						  <td class="schedule-time"><span block="21" key="game8" name="Game Time/Result" display="plain">1 p.m.</span></td>
         						</tr>
         						<tr>
         						  <td class="schedule-date">10/31</td>
         						  <td>Colgate University*</td>
-        						  <td class="schedule-time">1 p.m.</td>
+        						  <td class="schedule-time"><span block="22" key="game9" name="Game Time/Result" display="plain">1 p.m.</span></td>
         						</tr>
         						<tr class="schedule-home">
         						  <td class="schedule-date">11/7</td>
         						  <td>Bucknell University (Family Weekend)*</td>
-        						  <td class="schedule-time">1 p.m.</td>
+        						  <td class="schedule-time"><span block="23" key="game10" name="Game Time/Result" display="plain">1 p.m.</span></td>
         						</tr>
         						<tr>
         						  <td class="schedule-date">11/14</td>
         						  <td>Georgetown University*</td>
-        						  <td class="schedule-time">12 p.m.</td>
+        						  <td class="schedule-time"><span block="24" key="game11" name="Game Time/Result" display="plain">12 p.m.</span></td>
         						</tr>
         						
         						<tr>
@@ -373,71 +368,32 @@
 			<![endif]-->
 			<table class="outer" align="center">
 				<tr>
-					<td class="two-column">
-						<!--[if (gte mso 9)|(IE)]>
+					<td class="one-column">
 						<table width="100%">
-						<tr>
-						<td width="50%" valign="top">
-						<![endif]-->
-						<div class="column">
-							<table width="100%">
-								<tr>
-									<td class="inner">
-										<table class="contents" style="text-align: center;">
-  										<tr>
-        								<td class="section-header">
-          								<h4>
-            								<a href="#">News to Share</a>
-            						  </h4>
-        								</td>
-        							</tr>
-											<tr>
-												<td>
-													<p>Email us at <a href="mailto:maroonclub@fordham.edu">maroonclub@fordham.edu</a></p>
-													<div class="social">
-  													<a href="https://twitter.com/maroon_club" target="_blank"><img src="img/twitter.jpg"></a>
-  													<a href="https://www.facebook.com/MaroonClub" target="_blank"><img src="img/facebook.jpg"></a>
-  													<a href="https://instagram.com/maroonclub/" target="_blank"><img src="img/instagram.jpg"></a>
-													</div>
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-							</table>
-						</div>
-						<!--[if (gte mso 9)|(IE)]>
-						</td><td width="50%" valign="top">
-						<![endif]-->
-						<div class="column">
-							<table width="100%">
-								<tr>
-									<td class="inner">
-										<table class="contents" style="text-align: center;">
-  										<tr>
-        								<td class="section-header">
-          								<h4>
-            								<a href="#">Donor Honor Roll<br />
-              								<small>September 1&ndash;10</small>
-            								</a>
-            						  </h4>
-        								</td>
-        							</tr>
-											<tr>
-												<td>
-													<p><a href="#" target="_blank">View the newest members of the Gridiron Club.</a></p>
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-							</table>
-						</div>
-						<!--[if (gte mso 9)|(IE)]>
-						</td>
-						</tr>
+							<tr>
+								<td class="inner">
+									<table class="contents" style="text-align: center;">
+										<tr>
+      								<td class="section-header">
+        								<h4>
+          								<a href="#">News to Share</a>
+          						  </h4>
+      								</td>
+      							</tr>
+										<tr>
+											<td>
+												<p>Email us at <a href="mailto:maroonclub@fordham.edu">maroonclub@fordham.edu</a></p>
+												<div class="social">
+													<a href="https://twitter.com/maroon_club" target="_blank"><img src="img/twitter.jpg"></a>
+													<a href="https://www.facebook.com/MaroonClub" target="_blank"><img src="img/facebook.jpg"></a>
+													<a href="https://instagram.com/maroonclub/" target="_blank"><img src="img/instagram.jpg"></a>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
 						</table>
-						<![endif]-->
 					</td>
 				</tr>
 				

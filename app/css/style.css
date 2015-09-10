@@ -653,44 +653,45 @@ small {
 
 /* line 50, ../scss/_featured.scss */
 .featured-img {
-  Margin-bottom: 10px;
+  Margin-bottom: 20px;
 }
 @media screen and (max-width: 430px) {
-  /* line 50, ../scss/_featured.scss */
-  .featured-img {
+  /* line 52, ../scss/_featured.scss */
+  .featured-img img {
     max-width: 100% !important;
+    height: auto !important;
   }
 }
 
-/* line 64, ../scss/_featured.scss */
+/* line 66, ../scss/_featured.scss */
 .schedule,
 .schedule .outer {
   background: #f5f5f5;
 }
 
-/* line 69, ../scss/_featured.scss */
+/* line 71, ../scss/_featured.scss */
 .schedule-games td {
   padding-top: 7px;
   padding-bottom: 7px;
   vertical-align: top;
 }
 
-/* line 75, ../scss/_featured.scss */
+/* line 77, ../scss/_featured.scss */
 .schedule-date {
   width: 80px;
 }
 
-/* line 79, ../scss/_featured.scss */
+/* line 81, ../scss/_featured.scss */
 .schedule-time {
   width: 90px;
 }
 
-/* line 83, ../scss/_featured.scss */
+/* line 85, ../scss/_featured.scss */
 .schedule-home td {
   font-weight: bold;
 }
 
-/* line 87, ../scss/_featured.scss */
+/* line 89, ../scss/_featured.scss */
 td.schedule-key {
   font-size: 14px;
   text-align: center;
@@ -698,18 +699,18 @@ td.schedule-key {
 }
 
 @media screen and (max-width: 460px) {
-  /* line 94, ../scss/_featured.scss */
+  /* line 96, ../scss/_featured.scss */
   .schedule-date,
   .schedule-time {
     width: auto !important;
   }
 
-  /* line 99, ../scss/_featured.scss */
+  /* line 101, ../scss/_featured.scss */
   .schedule-date {
     min-width: 60px !important;
   }
 
-  /* line 103, ../scss/_featured.scss */
+  /* line 105, ../scss/_featured.scss */
   .schedule-time {
     min-width: 65px !important;
     padding-left: 15px !important;

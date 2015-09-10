@@ -48,10 +48,12 @@
 }
 
 .featured-img {
-  Margin-bottom: 10px;
-  
-  @media screen and(max-width: 430px) {
-		max-width: 100% !important;
+  Margin-bottom: 20px;
+  img {
+    @media screen and(max-width: 430px) {
+  		max-width: 100% !important;
+  		height: auto !important;
+    }
   }
 }
 
