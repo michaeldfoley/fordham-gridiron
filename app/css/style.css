@@ -25,15 +25,14 @@ td {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   background: #ffffff;
-  padding-top: 25px;
 }
 
-/* line 32, ../scss/_reset.scss */
+/* line 31, ../scss/_reset.scss */
 .webkit {
   max-width: 600px;
 }
 
-/* line 36, ../scss/_reset.scss */
+/* line 35, ../scss/_reset.scss */
 .outer {
   Margin: 0 auto;
   width: 100%;
@@ -41,17 +40,17 @@ td {
   background: #ffffff;
 }
 
-/* line 43, ../scss/_reset.scss */
+/* line 42, ../scss/_reset.scss */
 .inner {
   padding: 10px 15px 25px 15px;
 }
 
-/* line 47, ../scss/_reset.scss */
+/* line 46, ../scss/_reset.scss */
 .contents {
   width: 100%;
 }
 
-/* line 51, ../scss/_reset.scss */
+/* line 50, ../scss/_reset.scss */
 p {
   Margin: 0;
 }
@@ -547,57 +546,52 @@ small {
 }
 
 /* line 9, ../scss/_header.scss */
-.header {
-  padding-top: 0;
-}
-
-/* line 17, ../scss/_header.scss */
 .header-logo .inner {
   padding-top: 10px;
   padding-bottom: 25px;
 }
 @media screen and (max-width: 460px) {
-  /* line 17, ../scss/_header.scss */
+  /* line 9, ../scss/_header.scss */
   .header-logo .inner {
     padding-bottom: 0 !important;
   }
 }
-/* line 25, ../scss/_header.scss */
+/* line 17, ../scss/_header.scss */
 .header-logo .inner img {
   max-width: 165px;
 }
 @media screen and (max-width: 460px) {
-  /* line 25, ../scss/_header.scss */
+  /* line 17, ../scss/_header.scss */
   .header-logo .inner img {
     max-width: 165px !important;
   }
 }
 
-/* line 38, ../scss/_header.scss */
+/* line 30, ../scss/_header.scss */
 .header-tagline .inner {
   padding-top: 10px;
   padding-bottom: 25px;
 }
 @media screen and (max-width: 460px) {
-  /* line 38, ../scss/_header.scss */
+  /* line 30, ../scss/_header.scss */
   .header-tagline .inner {
     padding-top: 10px !important;
   }
 }
 
-/* line 46, ../scss/_header.scss */
+/* line 38, ../scss/_header.scss */
 .header-tagline .contents {
   display: inline-block;
   font-size: 16px;
   text-align: right;
 }
-/* line 51, ../scss/_header.scss */
+/* line 43, ../scss/_header.scss */
 .header-tagline .contents a, .header-tagline .contents {
   color: #727272;
 }
 
 @media screen and (max-width: 460px) {
-  /* line 59, ../scss/_header.scss */
+  /* line 51, ../scss/_header.scss */
   .header-logo .contents,
   .header-tagline .contents {
     text-align: center !important;
@@ -605,15 +599,21 @@ small {
 }
 /* line 9, ../scss/_section.scss */
 .section-header {
+  padding-top: 25px;
   padding-bottom: 0;
 }
-/* line 12, ../scss/_section.scss */
+/* line 13, ../scss/_section.scss */
 .section-header a {
   color: #444444;
 }
-/* line 16, ../scss/_section.scss */
+/* line 17, ../scss/_section.scss */
 .section-header h4 {
   Margin-top: 0;
+}
+
+/* line 22, ../scss/_section.scss */
+.section-header--alt {
+  padding-top: 10px;
 }
 
 /* line 6, ../scss/_featured.scss */
