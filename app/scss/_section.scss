@@ -7,10 +7,13 @@
 //---------------------
 
 .section-header {
-  padding-top: 25px;
   padding-bottom: 0;
   
   a {
     color: $text-color;        
+  }
+  
+  h4 {
+    Margin-top: 0;
   }
 }
